@@ -4,7 +4,7 @@
 
   <groupId>org.sherlok</groupId>
   <artifactId>sherlok_javaclient</artifactId>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.1</version>
   <description>Lightweight Java client to access Sherlok server results</description>
 
   <organization>
