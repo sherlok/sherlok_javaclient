@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.sherlok</groupId>
+  <groupId>io.sherlok</groupId>
   <artifactId>sherlok_javaclient</artifactId>
   <version>0.1</version>
   <description>Lightweight Java client to access Sherlok server results</description>
@@ -18,6 +18,25 @@
       <email>renaud.richardet@gmail.com</email>
     </developer>
   </developers>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:renaud/sherlok_javaclient</connection>
+    <developerConnection>scm:git:git@github.com:renaud/sherlok_javaclient</developerConnection>
+    <url>http://github.com/renaud/sherlok_javaclient</url>
+  </scm>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
 
   <build>
     <plugins>
